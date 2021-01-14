@@ -21,6 +21,13 @@ const Kertoja = (props) => {
   )
 }
 
+const Lisaa = (props) => {
+  return(
+    <div>
+    <p>{props.ekaluku + props.tokaluku<p>
+  )
+ }     
+
 const App = () => {
   const nimi = 'elias'
   const ika = 14
@@ -33,6 +40,7 @@ const App = () => {
     <Hello name = "javascript" age = {2021 - 1995}/>
     <Hello name = {nimi} age = {ika}/>
     <Kertoja ekaluku = {luku1} tokaluku = {luku2}/>
+    <Lisaa ekaluku = {luku1} tokaluku = {luku2}/>
   </div>
   )
 }
